@@ -100,6 +100,8 @@ class ClientHandler extends Thread
 					{
 						try 
 						{
+							// Feel free to change the value of attachment
+							// The file path below is just an example
 							String attachment = "C:\\Users\\Home\\Documents\\ExchangeRate.txt";
 
 							FileInputStream fileIn = 
@@ -129,6 +131,9 @@ class ClientHandler extends Thread
 				{
 					if(ch.getUserName().equals(username))
 					{
+					
+					// Feel free to change the value of attachment.
+					// The file path below is just an example.
 					String attachment = "C:\\Users\\Home\\Pictures\\football.png";
 				
 					try {
@@ -168,6 +173,9 @@ class ClientHandler extends Thread
 				{
 					if(ch.getUserName().equals(username))
 					{
+					
+					// Feel free to change the value of attachment.
+					// The file path below is just an example.
 					String attachment = "C:\\Users\\Home\\Documents\\cuckoo.au";
 					
 					try 
